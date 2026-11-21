@@ -1,0 +1,13 @@
+name: myenv  # Name of the conda environment
+channels:
+  - defaults
+  - conda-forge  # Optional: extra channel for more packages
+dependencies:
+  - python=3.10  # Specify Python version
+  - numpy=1.26
+  - pandas=2.1
+  - matplotlib=3.8
+  - scikit-learn=1.3
+  - pip  # Include pip if you need pip-installed packages
+  - pip:
+    -
